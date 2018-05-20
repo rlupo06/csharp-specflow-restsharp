@@ -1,0 +1,294 @@
+﻿{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "status": {
+      "$id": "/properties/status",
+      "type": "integer",
+      "title": "The Status Schema ",
+      "default": 0,
+      "examples": [
+        200
+      ]
+    },
+    "result": {
+      "$id": "/properties/result",
+      "type": "array",
+      "items": {
+        "$id": "/properties/result/items",
+        "type": "object",
+        "properties": {
+          "postcode": {
+            "$id": "/properties/result/items/properties/postcode",
+            "type": "string",
+            "title": "The Postcode Schema ",
+            "default": "",
+            "examples": [
+              "PR3 0SG"
+            ]
+          },
+          "quality": {
+            "$id": "/properties/result/items/properties/quality",
+            "type": "integer",
+            "title": "The Quality Schema ",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          },
+          "eastings": {
+            "$id": "/properties/result/items/properties/eastings",
+            "type": "integer",
+            "title": "The Eastings Schema ",
+            "default": 0,
+            "examples": [
+              351012
+            ]
+          },
+          "northings": {
+            "$id": "/properties/result/items/properties/northings",
+            "type": "integer",
+            "title": "The Northings Schema ",
+            "default": 0,
+            "examples": [
+              440302
+            ]
+          },
+          "country": {
+            "$id": "/properties/result/items/properties/country",
+            "type": "string",
+            "title": "The Country Schema ",
+            "default": "",
+            "examples": [
+              "England"
+            ]
+          },
+          "nhs_ha": {
+            "$id": "/properties/result/items/properties/nhs_ha",
+            "type": "string",
+            "title": "The Nhs_ha Schema ",
+            "default": "",
+            "examples": [
+              "North West"
+            ]
+          },
+          "longitude": {
+            "$id": "/properties/result/items/properties/longitude",
+            "type": "number",
+            "title": "The Longitude Schema ",
+            "default": 0,
+            "examples": [
+              -2.7462546825408936
+            ]
+          },
+          "latitude": {
+            "$id": "/properties/result/items/properties/latitude",
+            "type": "number",
+            "title": "The Latitude Schema ",
+            "default": 0,
+            "examples": [
+              53.856624603271484
+            ]
+          },
+          "european_electoral_region": {
+            "$id": "/properties/result/items/properties/european_electoral_region",
+            "type": "string",
+            "title": "The European_electoral_region Schema ",
+            "default": "",
+            "examples": [
+              "North West"
+            ]
+          },
+          "primary_care_trust": {
+            "$id": "/properties/result/items/properties/primary_care_trust",
+            "type": "string",
+            "title": "The Primary_care_trust Schema ",
+            "default": "",
+            "examples": [
+              "North Lancashire Teaching"
+            ]
+          },
+          "region": {
+            "$id": "/properties/result/items/properties/region",
+            "type": "string",
+            "title": "The Region Schema ",
+            "default": "",
+            "examples": [
+              "North West"
+            ]
+          },
+          "lsoa": {
+            "$id": "/properties/result/items/properties/lsoa",
+            "type": "string",
+            "title": "The Lsoa Schema ",
+            "default": "",
+            "examples": [
+              "Wyre 006A"
+            ]
+          },
+          "msoa": {
+            "$id": "/properties/result/items/properties/msoa",
+            "type": "string",
+            "title": "The Msoa Schema ",
+            "default": "",
+            "examples": [
+              "Wyre 006"
+            ]
+          },
+          "incode": {
+            "$id": "/properties/result/items/properties/incode",
+            "type": "string",
+            "title": "The Incode Schema ",
+            "default": "",
+            "examples": [
+              "0SG"
+            ]
+          },
+          "outcode": {
+            "$id": "/properties/result/items/properties/outcode",
+            "type": "string",
+            "title": "The Outcode Schema ",
+            "default": "",
+            "examples": [
+              "PR3"
+            ]
+          },
+          "parliamentary_constituency": {
+            "$id": "/properties/result/items/properties/parliamentary_constituency",
+            "type": "string",
+            "title": "The Parliamentary_constituency Schema ",
+            "default": "",
+            "examples": [
+              "Wyre and Preston North"
+            ]
+          },
+          "admin_district": {
+            "$id": "/properties/result/items/properties/admin_district",
+            "type": "string",
+            "title": "The Admin_district Schema ",
+            "default": "",
+            "examples": [
+              "Wyre"
+            ]
+          },
+          "parish": {
+            "$id": "/properties/result/items/properties/parish",
+            "type": "string",
+            "title": "The Parish Schema ",
+            "default": "",
+            "examples": [
+              "Myerscough and Bilsborrow"
+            ]
+          },
+          "admin_county": {
+            "$id": "/properties/result/items/properties/admin_county",
+            "type": "string",
+            "title": "The Admin_county Schema ",
+            "default": "",
+            "examples": [
+              "Lancashire"
+            ]
+          },
+          "admin_ward": {
+            "$id": "/properties/result/items/properties/admin_ward",
+            "type": "string",
+            "title": "The Admin_ward Schema ",
+            "default": "",
+            "examples": [
+              "Brock with Catterall"
+            ]
+          },
+          "ccg": {
+            "$id": "/properties/result/items/properties/ccg",
+            "type": "string",
+            "title": "The Ccg Schema ",
+            "default": "",
+            "examples": [
+              "NHS Morecambe Bay"
+            ]
+          },
+          "nuts": {
+            "$id": "/properties/result/items/properties/nuts",
+            "type": "string",
+            "title": "The Nuts Schema ",
+            "default": "",
+            "examples": [
+              "Lancaster and Wyre"
+            ]
+          },
+          "codes": {
+            "$id": "/properties/result/items/properties/codes",
+            "type": "object",
+            "properties": {
+              "admin_district": {
+                "$id": "/properties/result/items/properties/codes/properties/admin_district",
+                "type": "string",
+                "title": "The Admin_district Schema ",
+                "default": "",
+                "examples": [
+                  "E07000128"
+                ]
+              },
+              "admin_county": {
+                "$id": "/properties/result/items/properties/codes/properties/admin_county",
+                "type": "string",
+                "title": "The Admin_county Schema ",
+                "default": "",
+                "examples": [
+                  "E10000017"
+                ]
+              },
+              "admin_ward": {
+                "$id": "/properties/result/items/properties/codes/properties/admin_ward",
+                "type": "string",
+                "title": "The Admin_ward Schema ",
+                "default": "",
+                "examples": [
+                  "E05009934"
+                ]
+              },
+              "parish": {
+                "$id": "/properties/result/items/properties/codes/properties/parish",
+                "type": "string",
+                "title": "The Parish Schema ",
+                "default": "",
+                "examples": [
+                  "E04005340"
+                ]
+              },
+              "parliamentary_constituency": {
+                "$id": "/properties/result/items/properties/codes/properties/parliamentary_constituency",
+                "type": "string",
+                "title": "The Parliamentary_constituency Schema ",
+                "default": "",
+                "examples": [
+                  "E14001057"
+                ]
+              },
+              "ccg": {
+                "$id": "/properties/result/items/properties/codes/properties/ccg",
+                "type": "string",
+                "title": "The Ccg Schema ",
+                "default": "",
+                "examples": [
+                  "E38000216"
+                ]
+              },
+              "nuts": {
+                "$id": "/properties/result/items/properties/codes/properties/nuts",
+                "type": "string",
+                "title": "The Nuts Schema ",
+                "default": "",
+                "examples": [
+                  "UKD44"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
