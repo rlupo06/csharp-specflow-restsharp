@@ -1,4 +1,4 @@
-# Specflow.RestSharp.Windows
+# Specflow.RestSharp
 
 ### Resources
 
