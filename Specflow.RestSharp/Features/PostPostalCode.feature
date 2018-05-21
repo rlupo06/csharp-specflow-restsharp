@@ -5,7 +5,7 @@
     Given path 'postcodes'
      When method POST
       And headers
-	  | Key			 | Value			| 
+      | Key	     | Value	        | 
       | Content-Type | application/json | 
       And payload "PostDataPayload"
   """
