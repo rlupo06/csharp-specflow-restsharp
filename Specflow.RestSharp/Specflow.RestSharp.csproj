@@ -58,7 +58,6 @@
     <None Include="Schemas\GetDataResponseSchema.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Compile Include="SpecFlowNUnitExtension.cs" />
     <Compile Include="Utils\Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
